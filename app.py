@@ -25,7 +25,7 @@ st.sidebar.info("💡 **Tip:** High lead counts take a few extra seconds to pars
 if search_button:
     if use_csv:
         try:
-            df_raw = pd.read_csv("leads_cache.csv")
+            df_raw = pd.read_csv("public_demo_data.csv")
             st.session_state['leads_data'] = leads_transform(df_raw)
         except Exception as e:
             st.error("No cached data")

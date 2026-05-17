@@ -5,6 +5,8 @@ secrets.toml
 leads_cache.csv
 *.csv
 
+!public_demo_data.csv
+
 __pycache__/
 *.pyc
 *.pyo
